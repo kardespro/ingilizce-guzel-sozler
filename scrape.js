@@ -3,7 +3,7 @@ const axios = require("axios");
 const cheerio = require("cheerio");
 
 const url =
-  "https://www.englishcentral.com/blog/ingilizce-guzel-sozler-ve-turkce-anlamlari/"; // Hedef web sitesinin URL'sini burada belirtin
+  "https://www.englishcentral.com/blog/ingilizce-guzel-sozler-ve-turkce-anlamlari/"; 
 
 axios
   .get(url)
