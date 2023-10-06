@@ -23,7 +23,7 @@ axios
     const jsonData = JSON.stringify(blockquoteData, null, 2);
 
     fs.writeFileSync("data.json", jsonData);
-    console.log('Veriler "veriler.json" dosyasına yazıldı.');
+    console.log('Veriler "data.json" dosyasına yazıldı.');
   })
   .catch((error) => {
     console.error("Hata:", error);
